@@ -122,3 +122,12 @@ p {
     height: 500px;
     object-fit: cover;  
 }
+
+#rodape {
+    text-align: center;
+    background-color: #064661;
+    color: #FFFFFF;
+    padding: 20px;
+    
+
+}
