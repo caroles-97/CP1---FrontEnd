@@ -17,7 +17,8 @@ header {
 }
 
 /* Vamos reduzir o tamanho da img.!!!! */
-img {
+
+.banner {
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -64,7 +65,13 @@ p {
 .img-visite {
     width: 70%;
     object-fit: contain;
-    margin: 0px;
+    height: 500px;
+}
+
+.img-visite img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
 
 .center {
@@ -111,9 +118,7 @@ p {
 
 .photos-fds img {
     border-radius:50px;
-    display: flex;
     width: 100%;
     height: 500px;
     object-fit: cover;  
-
 }
