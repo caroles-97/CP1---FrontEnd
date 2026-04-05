@@ -125,11 +125,15 @@ p {
     padding: 20px;
 }
 
+#contatos {
+    padding-bottom: 20px;
+}
+
 #rodape {
     text-align: center;
     background-color: #064661;
     color: #FFFFFF;
     padding: 20px;
-    
-
+    font-size: 30px;
+      
 }
