@@ -9,56 +9,107 @@
     <link rel="stylesheet" href="CP1.css">
     <!-- link fonte do css -->
 
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
 </head>
+
+<!-- h1 para tamanho 40
+h2 tamanho 36
+h3 tamanho 32
+h4 tamanho 26 -->
 
 <body>
     <header>
-        <strong>EXERCÍCIO</strong>
+        <h1>  CHECKPOINT 1</h1>
     </header>
 
     <img src="./images/banner.jpg" alt="praia">
-    <h1>Aruba, a ilha paradisíaca</h1>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae deserunt porro incidunt, cum ut? Molestias enim sed cupiditate rem, omnis eius suscipit, numquam eligendi, harum laboriosam perferendis perspiciatis adipisci. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit id doloribus quam vero, explicabo illo numquam soluta praesentium quasi et excepturi tempore totam esse unde! .</p>
+
+
+<div id="blocao">
+    <!-- Abri o div master -->
+    <h2>ARUBA, A ILHA PARADÍSIACA</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae deserunt porro incidunt, cum ut? Molestias enim sed cupiditate rem, omnis eius suscipit, numquam eligendi, harum laboriosam perferendis perspiciatis adipisci. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit id doloribus quam vero, explicabo illo numquam soluta praesentium quasi et excepturi tempore totam esse unde!</p>
     
-    <h2>Locais para visitar</h2>
+    <h3>LOCAIS PARA VISITAR</h3>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae deserunt porro incidunt, cum ut? Molestias enim sed cupiditate rem.</p>
-    <p>Quo possimus nulla et illo. Lorem ipsum dolor sit amet quasi ab necessitatibus, excepturi tempora hic doloremque. Ducimus atque accusantium perspiciatis veniam tempore saepe. 
-    </p>
-    <p>Molestias enim sed cupiditate rem, omnis eius suscipit, numquam eligendi, harum laboriosam perferendis perspiciatis.</p>
-    <img src="./images/img-1.jpg" alt="bangalo">
-
-    <div id="topico">
-        <!-- usamos <div> para agrupar elementos para fins de estilos usando class ou id -->
-        <div class="valor">
-            <h3> Lorem Ipsum </h3>
-            <p>R$ XXX,XX</p>
+    <div class="blocvisite">
+        <!-- class é . -->
+        <div class="paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium beatae deserunt porro incidunt, cum ut? Molestias enim sed cupiditate rem.</p>
+            <p>Quo possimus nulla et illo. Lorem ipsum dolor sit amet quasi ab necessitatibus, excepturi tempora hic doloremque. Ducimus atque accusantium perspiciatis veniam tempore saepe. 
+            </p>
+            <p>Molestias enim sed cupiditate rem, omnis eius suscipit, numquam eligendi, harum laboriosam perferendis perspiciatis.</p>
         </div>
-        
-        <div class="valordestaq">
-            <h3> Lorem Ipsum</h3>
-            <p>R$ YYY,YY</p>
+        <div class="img-visite">
+            <img src="./images/img-1.jpg" alt="bangalo">
         </div>
-
-        <div class="valor">
-            <h3> Lorem Ipsum </h3>
-            <p>R$ ZZZ,ZZ</p>
-        </div>
-    
     </div>
 
     
+        <!-- usamos <div> para agrupar elementos para fins de estilos usando class ou id -->
+    <div class="center">
+        <h2> TÍTULO DO TÓPICO</h2>
+        </div>
+
+    <div id="lista">
+        <div class="card">
+            <h4> Lorem Ipsum </h4>
+            <p>R$ XXX,XX</p>
+        </div>
+        
+        <div class="card2">
+            <h4> Lorem Ipsum</h4>
+            <p>R$ YYY,YY</p>
+        </div>
+
+        <div class="card">
+            <h4> Lorem Ipsum </h4>
+            <p>R$ ZZZ,ZZ</p>
+        </div>
+    </div>
+
+    <!-- src - source/ fonte
+    alt após o img - define descrição textual para img -->
+
+    <div id="photos">
+        <h3>GALERIA</h3>
+
+        <div class="photos-fds">
+        <p><img src="./images/img-2.jpg" alt="surf">
+        <img src="./images/img-3.jpg" alt="veleiro_sonho_de_consumo">
+        <img src="./images/img-4.jpg" alt="kaiak_paradise">
+        <img src="./images/img-5.jpg" alt="gruta_verde"></p>
+        </div>
+
+    </div>
+
+    <div id="contatos">
+        <div class="center">
+            <h2>CONTATO</h2>
+        </div>
+
+        <p><a href="envelope.html"></a>
+            <i class="bx bx-envelope"></i> email@email.com.br </p>
+
+        <p><img src="./images/whatsapp.png" alt="whatsapp"> (11)95555-4444 </p>
+
+        <p><a href="location.html"></a> 
+            <i class="bx bx-location"></i> Av. Paulista 1106 </p>
+    </div>
+</div>
+
+    <div id="rodape">
+        <p>Carolina Kiyomi Hada </p>
+        <p>RM 571664</p>
+        <p>© Copyright</p>
+    </div>
 
 
-
-
-    
-
-
-    
-
-
-
-    
 </body>
 </html>
