@@ -32,12 +32,18 @@ h1 {
 
 h2 {
     font-size: 36px;
+    margin-top: 100px;
     color: #064661 ;
+}
+
+#margin0 {
+    margin-top: 0px;
 }
 
 h3 {
     font-size: 32px;
     color: #064661;
+    margin-top: 100px;
 }
 
 h4{
@@ -69,10 +75,9 @@ p {
 }
 
 .img-visite img {
-    width: 70%;
-    height: 500px;
+    width: 540px;
     object-fit: cover;
-    padding-left: 20%;
+    padding-left: 20px; 
 }
 
 .center {
@@ -119,8 +124,8 @@ p {
 
 .photos-fds img {
     border-radius:50px;
-    width: 100%;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;  
     padding: 20px;
 }
